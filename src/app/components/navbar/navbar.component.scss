@@ -1,0 +1,38 @@
+.main {
+   background: #d60f52;
+
+   &__container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 auto;
+      padding: 1.3em;
+      grid-template-columns: 40% auto;
+   }
+
+   &__logo {
+      font-weight: bold;
+   }
+
+   nav {
+      justify-self: right;
+   }
+
+   a:hover {
+      color:#4b4b4b;
+      transition: all 300ms ease-in-out;
+   }
+
+   ul {
+      list-style: none;
+   }
+
+   li {
+      display: inline-block;
+
+      &:not(:last-child) {
+         padding: 0 20px;
+      }
+   }
+
+}
